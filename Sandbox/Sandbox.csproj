@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Native\Native.csproj">
+      <Project>{5b59c44b-8d74-40eb-8ec9-eca71b5545e8}</Project>
+      <Name>Native</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Wrapper\Wrapper.vcxproj">
       <Project>{6e6b6894-9127-47d6-9c03-cb3e4038b5ab}</Project>
       <Name>Wrapper</Name>
