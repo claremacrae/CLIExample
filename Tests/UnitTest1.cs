@@ -12,6 +12,8 @@ namespace Tests
         {
             Assert.Equal(4, 4);
             Assert.Equal("Hello from C#", Class1.Hello());
+            // Cannot call this - likely due to different .NET types/versions
+            // Entity e = new Entity("The Wallman", 20, 35);
         }
     }
 }
